@@ -1,10 +1,9 @@
 **nest --help 可以查看nestjs所有的命令**
 
- 他的命令和 [angular](https://so.csdn.net/so/search?q=angular&spm=1001.2101.3001.7020)很像 
+他的命令和 [angular](https://so.csdn.net/so/search?q=angular&spm=1001.2101.3001.7020)很像 
 
 ![](https://img-blog.csdnimg.cn/b56338e73ac148c4943f383fbebb9811.png)
 
- 
 
 **案例生成一个用户模块**
 

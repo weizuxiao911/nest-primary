@@ -10,21 +10,21 @@
 | @Query(key?: string)    | `req.query`/`req.query[key]`     |
 | @Headers(name?: string) | `req.headers`/ req.headers[name] |
 
- 调试工具可以使用[postMan](https://so.csdn.net/so/search?q=postMan&spm=1001.2101.3001.7020) ApiFox 等 
+调试工具可以使用[postMan](https://so.csdn.net/so/search?q=postMan&spm=1001.2101.3001.7020) ApiFox 等 
 
- 下载地址 [Apifox - API 文档、调试、Mock、测试一体化协作平台 - 接口文档工具，接口自动化测试工具，接口Mock工具，API文档工具，API Mock工具，API自动化测试工具](https://www.apifox.cn/?utm_source=baidu_sem1) 
+下载地址 [Apifox - API 文档、调试、Mock、测试一体化协作平台 - 接口文档工具，接口自动化测试工具，接口Mock工具，API文档工具，API Mock工具，API自动化测试工具](https://www.apifox.cn/?utm_source=baidu_sem1) 
 
-![](D:\cwb\typora文件\内容图片\74fbf871d5004e58abe3fba981b2fbb2.png)
+![](https://img-blog.csdnimg.cn/74fbf871d5004e58abe3fba981b2fbb2.png)
 
 **1、获取get请求参数**
 
  可以使用Request[装饰器](https://so.csdn.net/so/search?q=装饰器&spm=1001.2101.3001.7020) 或者 Query 装饰器 跟express 完全一样 
 
-![](D:\cwb\typora文件\内容图片\9f673fd619b643ebad0d0d02cadb02e8.png)
+![](https://img-blog.csdnimg.cn/9f673fd619b643ebad0d0d02cadb02e8.png)
 
  也可以使用Query 直接获取 不需要在通过req.query 了 
 
-![](D:\cwb\typora文件\内容图片\3957dc61a1cc4719b92ae236a59d7c89.png)
+![](https://img-blog.csdnimg.cn/3957dc61a1cc4719b92ae236a59d7c89.png)
 
 ```js
 import { Controller, Get, Post, Body, Patch, Param, Delete, Version, Request, Query } from '@nestjs/common';
@@ -50,15 +50,15 @@ export class UserController {
 
  可以使用Request装饰器 或者 Body 装饰器 跟express 完全一样 
 
-![](D:\cwb\typora文件\内容图片\210ac37854714438a5f2c2b5385967b4.png)
+![](https://img-blog.csdnimg.cn/210ac37854714438a5f2c2b5385967b4.png)
 
  或者直接使用Body 装饰器 
 
-![](D:\cwb\typora文件\内容图片\d54ed57d83b24ae38377e1c0d0e17372.png)
+![](https://img-blog.csdnimg.cn/d54ed57d83b24ae38377e1c0d0e17372.png)
 
  也可以直接读取key 
 
-![](D:\cwb\typora文件\内容图片\33454cfde24b46b6b0ede32eb89bbf82.png)
+![](https://img-blog.csdnimg.cn/33454cfde24b46b6b0ede32eb89bbf82.png)
 
 ```js
 import { Controller, Get, Post, Body, Patch, Param, Delete, Version, Request, Query } from '@nestjs/common';
@@ -94,9 +94,9 @@ export class UserController {
 
  可以使用Request装饰器 或者 Param 装饰器 跟express 完全一样 
 
-![](D:\cwb\typora文件\内容图片\b790aeebe8f444488f721491cb2581a9.png)
+![](https://img-blog.csdnimg.cn/b790aeebe8f444488f721491cb2581a9.png)
 
-![](D:\cwb\typora文件\内容图片\96a5bc5570df4d24a976347017d1517e.png)
+![](https://img-blog.csdnimg.cn/96a5bc5570df4d24a976347017d1517e.png)
 
 ```js
 import { Controller, Get, Post, Body, Patch, Param, Delete, Version, Request, Query } from '@nestjs/common';
@@ -142,7 +142,7 @@ export class UserController {
 
  我在调试工具随便加了一个cookie 
 
-![](D:\cwb\typora文件\内容图片\1618ecf69b214bd49fffeab19abb897c.png)
+![](https://img-blog.csdnimg.cn/1618ecf69b214bd49fffeab19abb897c.png)
 
 ```js
 import { Controller, Get, Post, Body, Patch, Param, Delete, Version, Request, Query, Ip, Header, Headers } from '@nestjs/common';
@@ -188,7 +188,7 @@ export class UserController {
 
 使用 HttpCode 装饰器 控制接口返回的状态码 
 
-![img](D:\cwb\typora文件\内容图片\d3fc2406b79f40c296f9bba4223b80c8.png)
+![img](https://img-blog.csdnimg.cn/d3fc2406b79f40c296f9bba4223b80c8.png)
 
 ```js
 import { Controller, Get, Post, Body, Patch, Param, Delete, Version, Request, Query, Ip, Header, Headers, HttpCode } from '@nestjs/common';
